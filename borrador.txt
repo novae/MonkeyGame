@@ -1,0 +1,46 @@
+
+	
+	
+	//init
+	    MonkeyPolygon = new Polygon(new float[]{
+				monkeyX,monkeyY,
+				monkeyX+32,monkeyY,
+				monkeyX+32,monkeyY+32,
+				monkeyX,monkeyY+32
+		});
+		
+		
+		 MonkeyPolygon.setX(monkeyX);
+            if(entityCollisionWith()){
+                monkeyX++;
+                MonkeyPolygon.setX(monkeyX);
+            }
+			
+			
+			MonkeyPolygon.setX(monkeyX);
+            if(entityCollisionWith()){
+                monkeyX--;
+                MonkeyPolygon.setX(monkeyX);
+            }
+			
+			
+			MonkeyPolygon.setY(monkeyY);
+            if(entityCollisionWith()){
+                monkeyX++;
+                MonkeyPolygon.setY(monkeyY);
+            }
+			
+			
+			MonkeyPolygon.setY(monkeyY);
+            if(entityCollisionWith()){
+                monkeyX--;
+                MonkeyPolygon.setY(monkeyY);
+            }
+			
+			
+			
+			 
+	
+	
+	    BlockMap.tmap.render(0,0);
+        

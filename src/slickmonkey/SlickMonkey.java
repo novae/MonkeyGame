@@ -93,6 +93,7 @@ public class SlickMonkey extends BasicGame{
     public void render(GameContainer gc, Graphics grphcs) throws SlickException {
         map.render(0, 0);
         grphcs.drawAnimation(Monkey, monkeyX, monkeyY);
+        grphcs.draw(MonkeyPolygon);
     }
     
     
