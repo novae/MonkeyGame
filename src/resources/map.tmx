@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="20" tileheight="20">
- <tileset firstgid="1" name="colisiones" tilewidth="20" tileheight="20">
-  <image source="../../../../../Desktop/assetsMapSlick/colisiones.png" trans="ff00ff" width="300" height="300"/>
+ <tileset firstgid="1" name="escenario" tilewidth="20" tileheight="20">
+  <image source="escenario.png" trans="ff00ff" width="300" height="300"/>
  </tileset>
- <tileset firstgid="226" name="mono-sin-banana" tilewidth="39" tileheight="34">
-  <image source="../../../../../Desktop/assetsMapSlick/mono-sin-banana.png" trans="ff00ff" width="39" height="34"/>
+ <tileset firstgid="226" name="colisionTile" tilewidth="20" tileheight="20">
+  <image source="colisionTile.png" trans="ff00ff" width="20" height="20"/>
  </tileset>
- <tileset firstgid="227" name="mono-con-banana" tilewidth="42" tileheight="41">
-  <image source="../../../../../Desktop/assetsMapSlick/mono-con-banana.png" trans="ff00ff" width="42" height="41"/>
- </tileset>
- <tileset firstgid="228" name="bananas" tilewidth="28" tileheight="24">
-  <image source="../../../../../Desktop/assetsMapSlick/bananas.png" trans="ff00ff" width="28" height="24"/>
- </tileset>
- <tileset firstgid="229" name="caja" tilewidth="30" tileheight="30">
-  <image source="../../../../../Desktop/assetsMapSlick/caja.png" trans="ff00ff" width="30" height="30"/>
- </tileset>
- <tileset firstgid="230" name="colisiones" tilewidth="20" tileheight="20">
-  <image source="../../../../assetsMapSlick/colisiones.png" trans="ff00ff" width="300" height="300"/>
- </tileset>
- <tileset firstgid="455" name="chimcharj" tilewidth="20" tileheight="20">
-  <image source="../../../../assetsMapSlick/chimcharj.png" trans="ff00ff" width="20" height="20"/>
- </tileset>
- <layer name="mapa" width="15" height="15">
+ <layer name="escenario" width="15" height="15">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACw3DhVIVAAAAsGdiAnYjBorY3WKDioEBdnd3IXYgFih2d3d3+yl2N4rC7raXgUDgla9941vf+d4PfvSTn/3iV7/53R/+9Je/zfSPf83yn//NNpALc5vHvOYzv0EWsKCFLGwRixpsiKEWs7glLGkpS1vGspazvBWsaCXDrGy4VaxqNasbYQ1rGmkto6xtHetaz/o2sKGNbGwTm9rM5rawpa1sbRvb2s5o29vBjnays13saoyxdrO7PYyzp73sbR/j7Ws/+zvABBMd6CAHO8ShDnO4IxzpKEc7xrGOc7wTnOgkJzvFqU5zujOc6SxnO8e5znO+C1zoIheb5BKTXeoyl7vCla5ytWtc6zpTXG+qG9zoJje7xTTT3eo2M9zuDne6y93uca/73O8BD3rIwx7xqMc87glPesrTnvGs5zzvBS96ycte8arXvO4Nb3rL297xrve87wMf+sjHPvGpz3zuC3MAkcD+DoQDAAA=
+   H4sIAAAAAAAACw3DA3cWAAAAwC+7tmwMtWy3jDG3ZdtuYW0ZS6uWbdu2Xctb9U+6e+9yBAKBnOYyt3nMaz7zW8CCFrKwRSxqMYMMtrglLGkpS1vGspazvBWsaCUrW8WqVjPEUMMMt7o1jLCmtaxtHetaz/o2sKGNbGwTm9rM5rawpa1sbRsjbWs729vBjnays13sajejjDbGWOOMt7s97Gkve9vHvvYzwUT7O8CBDnKwQxzqMIc7wpGOcrRjHOs4xzvBiU5yslOc6jSnO8OZznK2c5zrPJOc7wIXushkF5tiqktc6jKXu8KVrnK1a1xrmutc7wY3usl0N7vFrWa4ze3ucKe73O0e97rP/R7woIc87BGPeszjnvCkpzztGc96zvNe8KKXvOwVr3rN697wpre87R3ves/7PvChj3zsE5/6zOe+8KWvfO0b3/rO937wo5/87Bcz/eo3v/vDn/7yt1lm+8e//vM/48f1MoQDAAA=
   </data>
  </layer>
  <layer name="colisiones" width="15" height="15">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAACzvOyMBwnEoYBEgRR1eDDojRSwiQowefXkrspdTuoaaXFECJXlxmEEqTuOTojQEUEmH8hAMAAA==
+   H4sIAAAAAAAAC3vEwMDwiEqYgURxfGrQASG9hACp6qmhn1y3juolDxCyn9Q0+QiHXmpjAKAHkJuEAwAA
   </data>
  </layer>
 </map>
