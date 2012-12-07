@@ -13,7 +13,7 @@ class BlockMap {
     
     public BlockMap(String ref)throws SlickException{
         entities = new ArrayList<Object>();
-        tmap = new TiledMap(ref,"data");
+        tmap = new TiledMap(ref,"resources");
         mapWidth = tmap.getWidth() * tmap.getTileWidth();
         mapHeight = tmap.getHeight() * tmap.getTileHeight();
         
@@ -21,7 +21,7 @@ class BlockMap {
             for(int y = 0; y < tmap.getHeight(); y++ ){
                 int tileID = tmap.getTileId(x, y, 0);
                if (tileID == 1) {
-                    entities.add(new Block(x * 16, y * 16, square, "square"));
+                    entities.add(new Block(x * 30, y * 30, square, "square"));
                 }
             }
         }
