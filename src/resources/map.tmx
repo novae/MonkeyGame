@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="colisiones" tilewidth="20" tileheight="20">
+  <image source="../../../../../Desktop/assetsMapSlick/colisiones.png" trans="ff00ff" width="300" height="300"/>
+ </tileset>
+ <tileset firstgid="226" name="mono-sin-banana" tilewidth="39" tileheight="34">
+  <image source="../../../../../Desktop/assetsMapSlick/mono-sin-banana.png" trans="ff00ff" width="39" height="34"/>
+ </tileset>
+ <tileset firstgid="227" name="mono-con-banana" tilewidth="42" tileheight="41">
+  <image source="../../../../../Desktop/assetsMapSlick/mono-con-banana.png" trans="ff00ff" width="42" height="41"/>
+ </tileset>
+ <tileset firstgid="228" name="bananas" tilewidth="28" tileheight="24">
+  <image source="../../../../../Desktop/assetsMapSlick/bananas.png" trans="ff00ff" width="28" height="24"/>
+ </tileset>
+ <tileset firstgid="229" name="caja" tilewidth="30" tileheight="30">
+  <image source="../../../../../Desktop/assetsMapSlick/caja.png" trans="ff00ff" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="230" name="colisiones" tilewidth="20" tileheight="20">
+  <image source="../../../../assetsMapSlick/colisiones.png" trans="ff00ff" width="300" height="300"/>
+ </tileset>
+ <tileset firstgid="455" name="chimcharj" tilewidth="20" tileheight="20">
+  <image source="../../../../assetsMapSlick/chimcharj.png" trans="ff00ff" width="20" height="20"/>
+ </tileset>
+ <layer name="mapa" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3DhVIVAAAAsGdiAnYjBorY3WKDioEBdnd3IXYgFih2d3d3+yl2N4rC7raXgUDgla9941vf+d4PfvSTn/3iV7/53R/+9Je/zfSPf83yn//NNpALc5vHvOYzv0EWsKCFLGwRixpsiKEWs7glLGkpS1vGspazvBWsaCXDrGy4VaxqNasbYQ1rGmkto6xtHetaz/o2sKGNbGwTm9rM5rawpa1sbRvb2s5o29vBjnays13saoyxdrO7PYyzp73sbR/j7Ws/+zvABBMd6CAHO8ShDnO4IxzpKEc7xrGOc7wTnOgkJzvFqU5zujOc6SxnO8e5znO+C1zoIheb5BKTXeoyl7vCla5ytWtc6zpTXG+qG9zoJje7xTTT3eo2M9zuDne6y93uca/73O8BD3rIwx7xqMc87glPesrTnvGs5zzvBS96ycte8arXvO4Nb3rL297xrve87wMf+sjHPvGpz3zuC3MAkcD+DoQDAAA=
+  </data>
+ </layer>
+ <layer name="colisiones" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACzvOyMBwnEoYBEgRR1eDDojRSwiQowefXkrspdTuoaaXFECJXlxmEEqTuOTojQEUEmH8hAMAAA==
+  </data>
+ </layer>
+</map>
