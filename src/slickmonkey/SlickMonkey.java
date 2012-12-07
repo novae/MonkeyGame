@@ -47,6 +47,16 @@ public class SlickMonkey extends BasicGame{
         }
         
     }
+    
+    public boolean entityCollisionWith()throws SlickException{
+        for(int i = 0; i < BlockMap.entities.size(); i ++){
+            Block entity1 = (Block)BlockMap.entities.get(i);
+            if(MonkeyPolygon.intersects(entity1.poly)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     @Override
     public void update(GameContainer gc, int i) throws SlickException {
