@@ -34,7 +34,7 @@ public class SlickMonkey extends BasicGame{
     public void init(GameContainer gc) throws SlickException {
        gc.setVSync(true);
        sheet = new SpriteSheet("resources/monkey.png",30,30);
-       map = new TiledMap("resources/map.tmx");
+       map = new TiledMap("resources/mapa.tmx");
        Monkey = new Animation();
        Monkey.setAutoUpdate(true);
        moveMonkey(steps,0);
