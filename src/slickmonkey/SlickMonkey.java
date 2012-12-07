@@ -80,18 +80,30 @@ public class SlickMonkey extends BasicGame{
 	if (gc.getInput().isKeyDown(Input.KEY_RIGHT)) {
             monkeyX++;
             moveMonkey(steps,2);
-           
+            MonkeyPolygon.setX(monkeyX);
+            if(entityCollisionWith()){
+                monkeyX--;
+                MonkeyPolygon.setX(monkeyX);
+            }
             
         }
 	if (gc.getInput().isKeyDown(Input.KEY_UP)) {
             monkeyY--;
             moveMonkey(steps,3);
-            
+            MonkeyPolygon.setY(monkeyY);
+            if(entityCollisionWith()){
+                monkeyX++;
+                MonkeyPolygon.setY(monkeyY);
+            }
         }
 	if (gc.getInput().isKeyDown(Input.KEY_DOWN)) {
             monkeyY++;
             moveMonkey(steps,0);
-           
+            MonkeyPolygon.setY(monkeyY);
+            if(entityCollisionWith()){
+                monkeyX--;
+                MonkeyPolygon.setY(monkeyY);
+            }
         }
     }
     
