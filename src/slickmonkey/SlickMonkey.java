@@ -34,10 +34,18 @@ public class SlickMonkey extends BasicGame{
     public void init(GameContainer gc) throws SlickException {
        gc.setVSync(true);
        sheet = new SpriteSheet("resources/monkey.png",30,30);
-       map = new TiledMap("resources/mapa.tmx");
+       //map = new TiledMap("resources/mapa.tmx");
+       mapblock = new BlockMap("resources/mapa.tmx");
        Monkey = new Animation();
        Monkey.setAutoUpdate(true);
        moveMonkey(steps,0);
+       
+       MonkeyPolygon = new Polygon(new float[]{
+				monkeyX,monkeyY,
+				monkeyX+30,monkeyY,
+				monkeyX+30,monkeyY+30,
+				monkeyX,monkeyY+30
+		});
        
     }
     
@@ -91,7 +99,7 @@ public class SlickMonkey extends BasicGame{
 
     @Override
     public void render(GameContainer gc, Graphics grphcs) throws SlickException {
-        map.render(0, 0);
+        BlockMap.tmap.render(0, 0);
         grphcs.drawAnimation(Monkey, monkeyX, monkeyY);
         grphcs.draw(MonkeyPolygon);
     }
