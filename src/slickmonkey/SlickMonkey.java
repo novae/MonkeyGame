@@ -12,6 +12,8 @@ public class SlickMonkey extends BasicGame{
     private Animation Monkey;
     SpriteSheet sheet;
     int [] steps={0,1,2};
+    private Polygon MonkeyPolygon;
+    public BlockMap mapblock;
     
     public SlickMonkey(String title) throws SlickException {
      super(title);
